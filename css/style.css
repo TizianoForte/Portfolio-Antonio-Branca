@@ -827,7 +827,12 @@ form textarea {
 
 	.list h4 {
 		font-size: 1rem;
+		
 
+	}
+	.list{
+		display: flex;
+		flex-direction: column;
 	}
 
 	.read-smartphone {
