@@ -55,12 +55,6 @@ function navHighlighter() {
   });
 }
 
-
-
-// responsive class active smartphone
-
-
-
 //fare submit contatti tramite mail
 
 
