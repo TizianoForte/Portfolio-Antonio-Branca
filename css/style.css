@@ -449,7 +449,6 @@ header.sticky {
 }
 
 
-
 .contact-icons i {
 	height: 45px;
 	width: 45px;
@@ -819,7 +818,10 @@ form textarea {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		border: 1px solid red;
+	}
+
+	.list h4{
+		color: var(--text-color);
 	}
 
 	.read-smartphone {
