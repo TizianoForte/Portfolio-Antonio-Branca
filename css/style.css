@@ -556,7 +556,7 @@ form textarea {
 }*/
 
 
-@media (max-width: 1480px) {
+@media (min-width:1200px) {
 	header {
 		padding: 12px 2.5%;
 		transition: .1s;
@@ -576,7 +576,16 @@ form textarea {
 	.end {
 		padding: 15px 3%;
 	}
-
+	.box{
+		display: flex;
+		flex-direction: column;
+	}
+	.read{
+		display: flex;
+		justify-content: center;
+		
+	}
+	
 }
 
 @media (max-width: 1100px) {
@@ -596,6 +605,18 @@ form textarea {
 	.home {
 		height: 87vh;
 	}
+	
+	.box{
+		display: flex;
+		flex-direction: column;
+	}
+	.read{
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	
 }
 
 @media (max-width: 920px) {
@@ -648,13 +669,15 @@ form textarea {
 		width: 100%;
 	}
 
-	.read {
-		align-items: center;
+	.box{
 		display: flex;
-		margin: auto;
 		flex-direction: column;
 	}
-
+	.read{
+		display: flex;
+		justify-content: center;
+		
+	}
 	.about {
 		grid-template-columns: 1fr;
 	}
