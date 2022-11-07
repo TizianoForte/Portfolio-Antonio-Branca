@@ -380,7 +380,7 @@ header.sticky {
 }
 
 .layer h4 {
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 600;
 	margin-bottom: 15px;
 	color: white;
@@ -388,7 +388,7 @@ header.sticky {
 
 .layer p {
 	color: var(--main-color);
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 1.8;
 }
 
