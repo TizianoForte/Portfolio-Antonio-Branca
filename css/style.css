@@ -817,13 +817,16 @@ form textarea {
 	.box{
 		width: 100%;
 		height: 100%;
+	
 	}
 	.services-content {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 100vw;
-		margin-left: -3rem;
+		width: 90vw;
+		height: 100%;
+		overflow: hidden;
+		margin-left: -2rem;
 		}
 
 	.services-content img {
@@ -933,6 +936,7 @@ form textarea {
 		flex-direction: column;
 		margin-left: -2rem;
 		overflow: hidden;
+		
 
 	}
 	.portfolio{
