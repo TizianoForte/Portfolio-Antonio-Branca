@@ -6,6 +6,9 @@
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
+	
+
+	
 }
 
 :root {
@@ -17,6 +20,7 @@
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
+	
 
 }
 
@@ -24,6 +28,7 @@
 body {
 	background: var(--bg-color);
 	color: var(--text-color);
+	
 
 }
 
@@ -41,6 +46,7 @@ header {
 	padding: 22px 15%;
 	border-bottom: 1px solid transparent;
 	transition: all .45s ease;
+	
 
 }
 
@@ -255,9 +261,6 @@ header.sticky {
 	margin-bottom: 4rem;
 }
 
-.services {
-	background: var(--second-bg-color);
-}
 
 .main-text {
 	text-align: center;
@@ -273,15 +276,20 @@ header.sticky {
 	font-size: var(--h2-font);
 	line-height: 1;
 }
+.services{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
+	overflow: hidden;
+}
 .services-content {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	overflow: hidden;
 	margin-top: 50px;
-	
-	
 }
 
 .box {
@@ -391,7 +399,7 @@ header.sticky {
 .layer p {
 	color: var(--main-color);
 	font-size: 1rem;
-	
+
 }
 
 .layer i {
@@ -560,6 +568,7 @@ form textarea {
 
 
 @media (min-width:1280px) {
+	
 	header {
 		padding: 12px 2.5%;
 		transition: .1s;
@@ -579,24 +588,27 @@ form textarea {
 	.end {
 		padding: 15px 3%;
 	}
-	.box{
+
+	.box {
 		display: flex;
 		flex-direction: column;
 	}
-	.read{
+
+	.read {
 		display: flex;
 		justify-content: center;
-		
+
 	}
 
-	
+
 }
+
 @media (max-width: 1100px) {
-	.navlist{
+	.navlist {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
-	
+
 	}
 
 
@@ -614,16 +626,18 @@ form textarea {
 	.home {
 		height: 87vh;
 	}
-	
-	.box{
+
+	.box {
 		display: flex;
 		flex-direction: column;
 	}
-	.read{
+
+	.read {
 		display: flex;
 		justify-content: center;
-		
+
 	}
+
 	.services-content {
 		display: flex;
 		flex-direction: column;
@@ -631,25 +645,28 @@ form textarea {
 		width: 80%;
 		height: 10%;
 		margin-top: 40px;
-
 		
+
+
 	}
-	.box{
+
+	.box {
 		width: 100%;
 		height: 100%;
 	}
-	
-	
+
+
 }
 
 @media (max-width: 920px) {
-	.navlist{
+	.navlist {
 		display: flex;
 		width: 100%;
-	
-		
+
+
 	}
-	.navlist a{
+
+	.navlist a {
 		width: 100%;
 		justify-content: space-between;
 		height: 100%;
@@ -681,9 +698,9 @@ form textarea {
 		height: 80%;
 		width: 80%;
 		justify-content: center;
-		
-		
-		
+
+
+
 	}
 
 	.home-text h1 {
@@ -708,17 +725,19 @@ form textarea {
 		width: 100%;
 	}
 
-	.box{
+	.box {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 	}
-	.read{
+
+	.read {
 		display: flex;
 		justify-content: center;
-		
-		
+
+
 	}
+
 	.about {
 		grid-template-columns: 1fr;
 	}
@@ -729,7 +748,8 @@ form textarea {
 	}
 
 	.about-img img {
-		display: none;}
+		display: none;
+	}
 
 	.contact {
 		grid-template-columns: 1fr;
@@ -772,9 +792,9 @@ form textarea {
 		flex-direction: column;
 		width: 80%;
 		height: 100%;
-	
-		
-		
+
+
+
 	}
 
 	.home-text h1 {
@@ -818,21 +838,23 @@ form textarea {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-	
+
 
 
 	}
 
-	.main-text{
+	.main-text {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 	}
-	.box{
+
+	.box {
 		width: 100%;
 		height: 100%;
-	
+
 	}
+
 	.services-content {
 		display: flex;
 		flex-direction: column;
@@ -840,7 +862,8 @@ form textarea {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
-		}
+		
+	}
 
 	.services-content img {
 		height: 100%;
@@ -873,13 +896,6 @@ form textarea {
 		align-items: center;
 		justify-content: flex-start;
 	}
-	.about-text {
-		width: 100vw;
-		text-align: center;
-		margin-left: 1rem;
-		margin-right: 1rem;
-		
-	}
 
 	.typing {
 		font-size: 2rem;
@@ -898,6 +914,9 @@ form textarea {
 		flex-direction: column;
 
 	}
+	.about-text p{
+		font-size: 1rem;
+	}
 
 	.btn {
 		align-items: center;
@@ -911,13 +930,13 @@ form textarea {
 		display: none;
 	}
 
-	.list{
+	.list {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 	}
 
-	.list h4{
+	.list h4 {
 		color: var(--text-color);
 	}
 
@@ -950,45 +969,52 @@ form textarea {
 	.row:hover img {
 		transform: none;
 	}
-	.portfolio-content{
+
+	.portfolio-content {
 		width: 88vw;
 		display: flex;
 		flex-direction: column;
 		margin-left: -2rem;
 		overflow: hidden;
-		
+
 	}
-	.portfolio-content-project{
+
+	.portfolio-content-project {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 
 	}
-	.row-project{
+
+	.row-project {
 		width: 90vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		margin-left: -2.5rem;
 
-		
+
 	}
-	.portfolio{
+
+	.portfolio {
 		margin-top: -5rem;
 	}
-	.contact{
+
+	.contact {
 		margin-top: -9rem;
 		display: flex;
 		flex-direction: column;
 	}
-	.end{
+
+	.end {
 		display: flex;
 		width: 100vw;
 		justify-content: center;
-		
-	
+
+
 	}
-	.last-text{
+
+	.last-text {
 		width: 70%;
 	}
 }
