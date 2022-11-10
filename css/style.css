@@ -121,7 +121,7 @@ section {
 	background-position: right;
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: flex-start; 
 }
 .home-text{
 	width: 70%;
@@ -353,11 +353,12 @@ header.sticky {
 
 .portfolio-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(310px, auto));
 	align-items: center;
 	gap: 2.5rem;
 	margin-top: 5rem;
 }
+
 
 .row {
 	position: relative;
@@ -365,6 +366,7 @@ header.sticky {
 	border-radius: 8px;
 	cursor: pointer;
 	height: 100%;
+	
 
 }
 
@@ -608,11 +610,19 @@ form textarea {
 		justify-content: center;
 
 	}
+	.portfolio-content {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+		align-items: center;
+		gap: 2.5rem;
+		margin-top: 5rem;
+	}
+	
 
 
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
 	.navlist {
 		display: flex;
 		justify-content: space-between;
@@ -664,6 +674,8 @@ form textarea {
 		width: 100%;
 		height: 100%;
 	}
+
+
 
 
 }
