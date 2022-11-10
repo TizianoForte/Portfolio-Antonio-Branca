@@ -873,7 +873,13 @@ form textarea {
 		align-items: center;
 		justify-content: flex-start;
 	}
-
+	.about-text {
+		width: 100vw;
+		text-align: center;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		
+	}
 
 	.typing {
 		font-size: 2rem;
