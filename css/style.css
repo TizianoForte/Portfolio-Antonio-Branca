@@ -14,7 +14,6 @@
 :root {
 	--bg-color: #f3f2f2;
 	--text-color: black;
-	/*possibile modifica in gray*/
 	--second-color: gray;
 	--main-color: #ff4d05;
 	--big-font: 5rem;
@@ -293,16 +292,27 @@ header.sticky {
 
 .services-content {
 	display: flex;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-evenly;
 	width: 100%;
 	margin-top: 50px;
+	height: 100%;
+
+
+
+	
 }
 
 .box {
 	background: var(--bg-color);
-	padding: 35px 45px;
+	/*padding: 35px 45px;*/
 	border-radius: 8px;
 	transition: all .45s ease;
+	height:100%;
+	object-fit: contain;
+	
+
+
 }
 
 .s-icons i {
@@ -568,14 +578,6 @@ form textarea {
 
 
 
-
-/* applicare effetto di hover se voluto
-.row-project img:hover {
-	
-	
-}*/
-
-
 @media (min-width:1280px) {
 	
 
@@ -658,17 +660,7 @@ form textarea {
 
 	}
 
-	.services-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		width: 80%;
-		height: 10%;
-		margin-top: 40px;
 
-
-
-	}
 
 	.box {
 		width: 100%;
@@ -733,6 +725,9 @@ form textarea {
 	.button {
 		justify-content: left;
 	}
+	.services{
+		margin-top: -10rem;
+	}
 
 	.services-content {
 		display: flex;
@@ -740,6 +735,7 @@ form textarea {
 		align-items: center;
 		justify-content: center;
 		width: 100%;
+
 	}
 
 	.services-content img {
@@ -751,6 +747,7 @@ form textarea {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
+		margin: 1rem;
 	}
 
 	.read {
@@ -790,9 +787,7 @@ form textarea {
 		font-size: 1rem;
 
 	}
-
 }
-
 @media (max-width: 768px) {
 
 	.row {
@@ -814,9 +809,6 @@ form textarea {
 		flex-direction: column;
 		width: 80%;
 		height: 100%;
-
-
-
 	}
 
 	.home-text h1 {
@@ -860,9 +852,6 @@ form textarea {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-
-
-
 	}
 
 	.main-text {
@@ -901,7 +890,7 @@ form textarea {
 
 	}
 
-	/* da rivedere */
+
 	.logo-nav {
 		display: none;
 
@@ -975,9 +964,6 @@ form textarea {
 		border-radius: 8px;
 		transition: all .45s ease;
 		justify-content: center;
-
-
-
 	}
 
 	.smart-btn {
@@ -1040,4 +1026,5 @@ form textarea {
 	.last-text {
 		width: 70%;
 	}
+
 }
