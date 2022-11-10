@@ -928,7 +928,7 @@ form textarea {
 		transform: none;
 	}
 	.portfolio-content{
-		width: 90vw;
+		width: 88vw;
 		display: flex;
 		flex-direction: column;
 		margin-left: -2rem;
@@ -945,12 +945,12 @@ form textarea {
 	}
 	.end{
 		display: flex;
-		width: 100%;
+		width: 100vw;
 		justify-content: center;
 		
 	
 	}
 	.last-text{
-		width: 50%;
+		width: 70%;
 	}
 }
