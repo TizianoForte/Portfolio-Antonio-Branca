@@ -293,10 +293,12 @@ header.sticky {
 .services-content {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	width: 100%;
 	margin-top: 50px;
 	height: 100%;
+	padding: 0;
+	margin: 0;
 
 
 
@@ -305,7 +307,7 @@ header.sticky {
 
 .box {
 	background: var(--bg-color);
-	/*padding: 35px 45px;*/
+	padding: 30px 25px;
 	border-radius: 8px;
 	transition: all .45s ease;
 	height:100%;
@@ -735,6 +737,7 @@ form textarea {
 		align-items: center;
 		justify-content: center;
 		width: 100%;
+	
 
 	}
 
@@ -873,6 +876,8 @@ form textarea {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
+		margin-bottom: 2rem;
+		
 
 	}
 
@@ -978,20 +983,29 @@ form textarea {
 	.row:hover img {
 		transform: none;
 	}
-
+	
+	
+.main-text{
+	padding: top 0;margin-top: -1.5rem;
+}
 	.portfolio-content {
-		width: 88vw;
 		display: flex;
 		flex-direction: column;
-		margin-left: -2rem;
+		flex-wrap: wrap;
+		width: 95vw;
+		height: 100%;
 		overflow: hidden;
-
+		margin-left: -48px;
+		text-align: center;
+		
 	}
 
 	.portfolio-content-project {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
+		
 
 	}
 
