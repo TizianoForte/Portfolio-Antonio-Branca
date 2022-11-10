@@ -6,9 +6,9 @@
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
-	
 
-	
+
+
 }
 
 :root {
@@ -20,7 +20,7 @@
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
-	
+
 
 }
 
@@ -28,7 +28,7 @@
 body {
 	background: var(--bg-color);
 	color: var(--text-color);
-	
+
 
 }
 
@@ -46,7 +46,7 @@ header {
 	padding: 22px 15%;
 	border-bottom: 1px solid transparent;
 	transition: all .45s ease;
-	
+
 
 }
 
@@ -122,8 +122,12 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	border: 1px solid red;
 }
-
+.home-text{
+	width: 70%;
+	
+}
 .slide {
 	margin-bottom: 20px;
 }
@@ -169,6 +173,7 @@ section {
 	font-size: var(--p-font);
 	line-height: 1.8;
 	margin-bottom: 40px;
+	
 }
 
 .button {
@@ -239,6 +244,7 @@ header.sticky {
 	height: auto;
 	width: 100%;
 	border-radius: 8px;
+	margin-top: 100px;
 }
 
 .about-text h2 {
@@ -276,7 +282,8 @@ header.sticky {
 	font-size: var(--h2-font);
 	line-height: 1;
 }
-.services{
+
+.services {
 	width: 100%;
 	overflow: hidden;
 	display: flex;
@@ -285,6 +292,7 @@ header.sticky {
 
 	overflow: hidden;
 }
+
 .services-content {
 	display: flex;
 	justify-content: center;
@@ -560,6 +568,7 @@ form textarea {
 
 
 
+
 /* applicare effetto di hover se voluto
 .row-project img:hover {
 	
@@ -569,6 +578,7 @@ form textarea {
 
 @media (min-width:1280px) {
 	
+
 	header {
 		padding: 12px 2.5%;
 		transition: .1s;
@@ -622,6 +632,7 @@ form textarea {
 	.home-text h3 {
 		font-size: 2.5rem;
 	}
+	
 
 	.home {
 		height: 87vh;
@@ -645,7 +656,7 @@ form textarea {
 		width: 80%;
 		height: 10%;
 		margin-top: 40px;
-		
+
 
 
 	}
@@ -862,7 +873,7 @@ form textarea {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
-		
+
 	}
 
 	.services-content img {
@@ -914,7 +925,8 @@ form textarea {
 		flex-direction: column;
 
 	}
-	.about-text p{
+
+	.about-text p {
 		font-size: 1rem;
 	}
 
