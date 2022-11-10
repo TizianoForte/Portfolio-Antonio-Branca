@@ -762,7 +762,8 @@ form textarea {
 	}
 
 	#menu-icon {
-		display: block;
+		display: flex;
+		margin-right: -2rem;
 	}
 
 	.home-text {
