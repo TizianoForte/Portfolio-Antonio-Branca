@@ -383,14 +383,14 @@ header.sticky {
 }
 
 .layer h4 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-bottom: 15px;
 	color: white;
 }
 
 .layer p {
 	color: var(--main-color);
-	font-size: 1.2rem;
+	font-size: 1rem;
 	
 }
 
