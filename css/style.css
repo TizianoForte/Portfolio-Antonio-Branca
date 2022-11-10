@@ -822,8 +822,9 @@ form textarea {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 100%;
-	}
+		width: 100vw;
+		margin-left: -3rem;
+		}
 
 	.services-content img {
 		height: 100%;
@@ -835,6 +836,7 @@ form textarea {
 		display: flex;
 		width: 100%;
 		flex-direction: column;
+
 	}
 
 	/* da rivedere */
@@ -926,11 +928,11 @@ form textarea {
 		transform: none;
 	}
 	.portfolio-content{
-		width: 100%;
+		width: 90vw;
 		display: flex;
 		flex-direction: column;
-		border: 1 px solid red;
-		height: 100%;
+		margin-left: -2rem;
+
 	}
 	.portfolio{
 		margin-top: -8rem;
