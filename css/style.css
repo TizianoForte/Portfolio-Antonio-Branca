@@ -932,6 +932,7 @@ form textarea {
 		display: flex;
 		flex-direction: column;
 		margin-left: -2rem;
+		overflow: hidden;
 
 	}
 	.portfolio{
