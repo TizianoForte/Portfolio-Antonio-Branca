@@ -819,6 +819,7 @@ form textarea {
 }
 
 @media (max-width: 768px) {
+	
 
 	.row {
 		display: flex;
@@ -1039,6 +1040,7 @@ form textarea {
 		height: 100%;
 		overflow: hidden;
 		text-align: center;
+		margin-bottom: 8rem;
 
 	}
 
@@ -1054,7 +1056,7 @@ form textarea {
 	
 
 	.contact {
-		margin-top: -9rem;
+		padding-top: 0;
 		display: flex;
 		flex-direction: column;
 	}
