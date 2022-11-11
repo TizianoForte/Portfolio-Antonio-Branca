@@ -953,9 +953,9 @@ form textarea {
 		flex-direction: column;
 		justify-content: center;
 		padding: 1rem;
+		margin-top: 3rem;
 	
 	}
-	
 
 	.about-text a {
 		justify-content: center;
