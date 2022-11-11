@@ -1057,6 +1057,7 @@ form textarea {
 
 	.contact {
 		padding-top: 0;
+		margin-top: 5rem;
 		display: flex;
 		flex-direction: column;
 	}
